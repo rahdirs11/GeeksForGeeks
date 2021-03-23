@@ -9,6 +9,16 @@ On adding one to any number, the bits after the rigthmost 0 are flipped, and the
 bit itself(rightmost 0 before flipping), is made a set bit.
 In order to achieve this, we use xor to flip the bits until the and operation is
 false -> until we hit the rightmost unset bit before flipping
+
+5 -> 101
+6 -> 110
+
+
+4 -> 100
+5 -> 101
+
+7 -> 111
+
 '''
 def addOne(x: int) -> int:
     '''
