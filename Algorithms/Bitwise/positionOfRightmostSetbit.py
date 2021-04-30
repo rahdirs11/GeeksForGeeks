@@ -1,4 +1,4 @@
-def positionOfSetbit(n: int):
+pdef positionOfSetbit(n: int):
 	m, position = 1, 1
 	while not n & m:
 		position += 1

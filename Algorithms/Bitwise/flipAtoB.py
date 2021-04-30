@@ -4,6 +4,12 @@ Count number of bits needed to flip, to convert a to b.
 
 
 '''
+011
+001
+
+010
+
+
 eg: 10, 20 => output
 10 -> 01010
 20 -> 10100
